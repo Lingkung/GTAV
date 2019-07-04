@@ -1,0 +1,49 @@
+@font-face {
+	font-family: Arthit;
+	src: url('Arthit.ttf');
+}
+body {
+	font-family: roboto;
+}
+#cursor {
+    position: absolute;
+    z-index: 999999;
+    display:  none;
+}
+#menu {
+	position: absolute;
+	top:  50%;
+	left:  50%;
+}
+#menu {
+	display       :  flex;
+	flex-direction: column;
+	width      : 500px;
+	height     : 150px;
+  margin-top : -75px;
+  margin-left: -250px;
+}
+#menu div {
+	display: flex;
+	flex-direction: row;
+}
+#deposit_btn {
+	width : 300px;
+	height: 50px;
+	font-size:  1.7em;
+}
+#deposit_amount {
+	width    : 300px;
+	height   : 50px;
+	font-size:  1.7em;
+}
+#withdraw_btn {
+	width : 300px;
+	height: 50px;
+	font-size:  1.7em;
+}
+#withdraw_amount {
+	width    : 300px;
+	height   : 50px;
+	font-size:  1.7em;
+}

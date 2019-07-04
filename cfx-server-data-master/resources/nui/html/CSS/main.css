@@ -1,0 +1,57 @@
+/* Fuck CSS */
+
+canvas{
+  position:absolute;
+}
+
+button{
+  margin: 10px;
+  background: rgba(0, 0, 0, 0.0);
+  font-family: TheBlacklist, Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  border: thin solid rgba(0, 0, 0, 0.0);
+  cursor: pointer;
+  justify-content: center;
+}
+#container{
+    border-width:10px;  
+    border-style:ridge;
+    width: 1000px;
+    height: 690px;
+  margin: 0 auto;
+}
+#dragonleft{
+ position: absolute;
+  top: 80px;
+  left: 170px;
+  width: 200px;
+    
+
+}
+#dragonright{
+ position: absolute;
+  top: 80px;
+  left: 960px;
+  width: 200px;
+  
+}
+button:hover{
+  color: white;
+}
+
+#Buttons{
+  position: absolute;
+  /* border-style: solid; */
+  text-align:center;
+  display: block;
+}
+
+#Account{
+  position: relative;
+  text-align: center;
+  font-family: TheBlacklist, Arial, Helvetica, sans-serif;
+  display: inline;
+  /* border-style: solid; */
+  white-space:nowrap;
+  
+}

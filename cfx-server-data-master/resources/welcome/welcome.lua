@@ -1,0 +1,6 @@
+AddEventHandler("playerSpawned", function(spawn)
+TriggerEvent("chatMessage", "", { 0, 255, 255 }, "[ระบบ] ยินดีต้อนรับสู้เชีฟเวอร์ Cool Cat RolePlay")
+TriggerEvent("chatMessage", "", { 0, 255, 00 }, "[ระบบ] Ts3  nickza.tk")
+TriggerEvent("chatMessage", "", { 255, 48, 48 }, "[ระบบ] ระบบดีเพิ่มเรือยๆพัฒนาเรือยๆ")
+TriggerEvent("chatMessage", "", { 0, 255, 055 }, "[ติดต่อโดเนทได้ที่แอดมิน Nick เบอร์วอเล็ต 0826186402 ")
+end)

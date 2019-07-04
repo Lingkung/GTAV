@@ -1,0 +1,2 @@
+startcmd = D:\FiveM\server\test\run - Copy - Copy - Copy (2).bat;D:\FiveM\server\test\run - Copy - Copy - Copy.bat;D:\FiveM\server\test\run - Copy - Copy.bat;
+timerestart = 0.0;1.4;23.59;
