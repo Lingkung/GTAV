@@ -82,15 +82,15 @@ AddEventHandler('esx_drugs:processCannabis', function()
 
 		playersProcessingCannabis[_source] = ESX.SetTimeout(Config.Delays.WeedProcessing, function()
 			local xPlayer = ESX.GetPlayerFromId(_source)
-			local xCannabis, xMarijuana = xPlayer.getInventoryItem('cannabis'), xPlayer.getInventoryItem('weed_pooch')
+			local xCannabis, xMarijuana = xPlayer.getInventoryItem('cannabis'), xPlayer.getInventoryItem('marijuana')
 
 			if xMarijuana.limit ~= -1 and (xMarijuana.count + 1) >= xMarijuana.limit then
 				TriggerClientEvent('esx:showNotification', _source, _U('weed_processingfull'))
 			elseif xCannabis.count < 3 then
 				TriggerClientEvent('esx:showNotification', _source, _U('weed_processingenough'))
 			else
-				xPlayer.removeInventoryItem('cannabis', 5)
-				xPlayer.addInventoryItem('weed_pooch', 1)
+				xPlayer.removeInventoryItem('cannabis', 3)
+				xPlayer.addInventoryItem('marijuana', 1)
 
 				TriggerClientEvent('esx:showNotification', _source, _U('weed_processed'))
 			end
